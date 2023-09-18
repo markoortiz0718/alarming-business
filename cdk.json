@@ -1,0 +1,10 @@
+{
+    "app": "python3 app.py",
+    "context": {
+        "environment": {
+            "AWS_REGION": "us-east-1",
+            "SQS_QUEUE": "problematic_business",
+            "SNS_TOPIC": "alarming_news"
+        }
+    }
+}
